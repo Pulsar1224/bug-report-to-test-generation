@@ -1,3 +1,4 @@
+## Project Overview
 # bug-report-to-test-generation
 Hybrid NLP and Large Language Model–based pipeline for bug-report–driven automated test input extraction and integration with EvoSuite and Pynguin.
 # Bug-Report–Driven Test Generation Using Hybrid NLP–LLM Techniques
@@ -17,7 +18,15 @@ These extracted inputs are then used as seed values for automated test generatio
 such as EvoSuite (Java) and Pynguin (Python).
 
 ---
-
+## Flow - 
+THESIS (Chapter 3 + Appendices)
+        ↓
+   GitHub Link
+        ↓
+    README.md
+        ↓
+  Code Execution
+---
 ## Repository Structure
 src/
 hybrid_nlp_llm_pipeline.py # Main extraction pipeline
@@ -49,16 +58,16 @@ export OPENAI_API_KEY="your_api_key_here"
 (On Windows PowerShell)
 setx OPENAI_API_KEY "your_api_key_here"
 
-Running the Pipeline
+## Running the Pipeline
 1. Execute the hybrid extraction pipeline:
 python src/hybrid_nlp_llm_pipeline.py
-This produces a structured output file:
-extracted_test_inputs.jsonl
+### Output - 
+  This produces a structured output file: extracted_test_inputs.jsonl
 
 2. Run the consumer script to prepare seed inputs:
 python src/test_input_consumer.py
-The selected inputs can then be injected into EvoSuite (Java) or Pynguin (Python)
-to guide automated test generation.
+### Output - 
+  The selected inputs can then be injected into EvoSuite (Java) or Pynguin (Python) to guide automated test generation.
 
 
 
