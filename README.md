@@ -26,6 +26,7 @@ THESIS (Chapter 3 + Appendices)
     README.md
         ↓
   Code Execution
+
 ---
 ## Repository Structure
 src/
@@ -36,8 +37,6 @@ data/
 sample_bug_reports.csv # Sample bug report dataset
 
 requirements.txt # Python dependencies
-
-
 
 ---
 
@@ -68,8 +67,3 @@ python src/hybrid_nlp_llm_pipeline.py
 python src/test_input_consumer.py
 ### Output - 
   The selected inputs can then be injected into EvoSuite (Java) or Pynguin (Python) to guide automated test generation.
-
-
-
-
-
