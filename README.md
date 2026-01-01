@@ -53,6 +53,7 @@ python -m spacy download en_core_web_sm
 
 Set the OpenAI API key as an environment variable:
 export OPENAI_API_KEY="your_api_key_here"
+For security reasons, API keys must be provided via environment variables and must not be hardcoded into the source code.
 
 (On Windows PowerShell)
 setx OPENAI_API_KEY "your_api_key_here"
